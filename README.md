@@ -15,7 +15,7 @@ Clone repository ini ke direktori lokal Anda.
 ```sh
 git clone https://github.com/adeepe/skripsi.git
 cd skripsi
-
+```
 
 ### 2. Buat dan Aktifkan Conda Environment
 Buat conda environment dan aktifkan.
@@ -23,7 +23,7 @@ Buat conda environment dan aktifkan.
 ```sh
 conda env create -f environment.yml
 conda activate skripsi-env
-
+```
 
 ### 3. Jalankan Flask API Server
 Jalankan Flask API server dengan perintah berikut.
@@ -32,14 +32,14 @@ Jalankan Flask API server dengan perintah berikut.
 conda env create -f environment.yml
 conda activate skripsi
 python app.py
-
+```
 
 ### 4. Akses Halaman Web
 Buka browser dan akses halaman web di \static/index.html\.
 
 ```sh
 open static/index.html
-
+```
 ## Struktur Proyek
 Berikut adalah struktur project ini:
 ```sh
@@ -61,7 +61,7 @@ skripsi/
 ├── app.py
 ├── environment.yml
 └── model.pth
-
+```
 ## Perbandingan Model
 Untuk melihat perbandingan model, Anda bisa membuka notebook berikut:
 
