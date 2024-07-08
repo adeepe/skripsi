@@ -73,6 +73,7 @@ Untuk melihat perbandingan model, Anda bisa membuka notebook berikut:
 - [SKRIPSI_EXPONENTIAL_SMOOTHING.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_EXPONENTIAL_SMOOTHING.ipynb)
 - [SKRIPSI_OLS.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_OLS.ipynb)
 - [SKRIPSI_LSTM.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_LSTM.ipynb)
+
 Notebook-notebook tersebut berisi analisis dan perbandingan performa dari berbagai model yang digunakan dalam proyek ini.
 
 ## Catatan Tambahan
