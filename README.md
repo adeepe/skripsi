@@ -44,7 +44,7 @@ Buka browser dan akses halaman web di \static/index.html\.
 ```sh
 open static/index.html
 ```
-## Struktur Proyek
+## Struktur Project
 Berikut adalah struktur project ini:
 ```sh
 skripsi/
@@ -78,8 +78,8 @@ Untuk melihat perbandingan model, Anda bisa membuka notebook berikut:
 - [SKRIPSI_OLS.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_OLS.ipynb)
 - [SKRIPSI_LSTM.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_LSTM.ipynb)
 
-Notebook-notebook tersebut berisi analisis dan perbandingan performa dari berbagai model yang digunakan dalam proyek ini.
+Notebook-notebook tersebut berisi analisis dan perbandingan performa dari berbagai model yang digunakan dalam project ini.
 
-## Catatan Tambahan
+## Catatan Tambahanjct
 Pastikan semua dependensi telah diinstal dengan benar sebelum menjalankan aplikasi. Jika Anda mengalami masalah, periksa versi Python dan dependensi yang diinstal.
 
