@@ -2,8 +2,10 @@
 
 ## Pengantar
 
-Penelitian ini bertujuan untuk menganalisis dan memprediksi penggunaan energi listrik di Provinsi D.I. Yogyakarta hingga tahun 2030 berdasarkan data penjualan bulanan dari tahun 2015 hingga 2024 yang diperoleh dari PLN UP3 Yogyakarta. Data menunjukkan tren peningkatan konsumsi energi listrik dengan fluktuasi musiman. 
+Penelitian ini bertujuan untuk menganalisis dan memprediksi penggunaan energi listrik di Provinsi D.I. Yogyakarta hingga tahun 2030 berdasarkan data penjualan bulanan dari tahun 2015 hingga 2024 yang diperoleh dari PLN UP3 Yogyakarta. Data menunjukkan tren peningkatan konsumsi energi listrik dengan fluktuasi musiman.
+
 Model Long Short-Term Memory (LSTM) digunakan untuk prediksi, dengan hasil pelatihan menunjukkan nilai Mean Squared Error (MSE) terendah sebesar 0.0158 pada data training. Evaluasi data testing menghasilkan Mean Absolute Error (MAE) sebesar 0.0762, MSE sebesar 0.0104, dan koefisien determinasi (R²) sebesar 0.5138, menunjukkan bahwa model mampu mengenali sekitar 51.38% variansi dalam variabel dependen.
+
 Model LSTM menunjukkan performa lebih baik dibandingkan dengan BiLSTM, Exponential Smoothing (ES), ARIMA, dan Ordinary Least Squares (OLS). Implementasi model dilakukan melalui API Flask yang diuji dengan Postman, dan hasil prediksi diintegrasikan ke dalam website sederhana, memungkinkan pengguna untuk melihat hasil prediksi penggunaan energi listrik. Penelitian ini menyimpulkan bahwa model LSTM lebih efektif dibandingkan metode lain yang digunakan dalam penelitian ini terkait prediksi penggunaan energi listrik di D.I. Yogyakarta.
 
 ## Instalasi
