@@ -49,12 +49,12 @@ Berikut adalah struktur project ini:
 ```sh
 skripsi/
 ├── data/
-│   └── JOG_MONTHLY.csv
+│   └── JOG_monthly.csv
 ├── model/
 ├── static/
 │   └── index.html
 │   └── style.css
-│   └── scripts.js
+│   └── script.js
 ├── README.md
 ├── SKRIPSI_ANALISIS_DATA.ipynb
 ├── SKRIPSI_ARIMA.ipynb
