@@ -1,44 +1,48 @@
-echo "# Skripsi Project
+# Skripsi Project
 
 ## Pengantar
+
 Project ini berisi skrip dan model untuk analisis data skripsi. Project ini menggunakan Flask untuk membuat API server dan memiliki halaman web statis untuk visualisasi dengan model yang digunakan adalah LSTM.
 
 ## Instalasi
+
 Ikuti langkah-langkah berikut untuk menginstal dependensi dan menjalankan aplikasi.
 
 ### 1. Clone Repository
+
 Clone repository ini ke direktori lokal Anda.
 
-\\\`sh
+```sh
 git clone https://github.com/adeepe/skripsi.git
 cd skripsi
-\\\`
+
 
 ### 2. Buat dan Aktifkan Conda Environment
 Buat conda environment dan aktifkan.
 
-\\\`sh
+```sh
 conda env create -f environment.yml
 conda activate skripsi-env
-\\\`
+
 
 ### 3. Jalankan Flask API Server
 Jalankan Flask API server dengan perintah berikut.
 
-\\\`sh
+```sh
+conda env create -f environment.yml
+conda activate skripsi
 python app.py
-\\\`
+
 
 ### 4. Akses Halaman Web
 Buka browser dan akses halaman web di \static/index.html\.
 
-\\\`sh
+```sh
 open static/index.html
-\\\`
 
 ## Struktur Proyek
-Berikut adalah struktur proyek ini:
-\\\`
+Berikut adalah struktur project ini:
+```sh
 skripsi/
 ├── data/
 ├── model/
@@ -57,7 +61,6 @@ skripsi/
 ├── app.py
 ├── environment.yml
 └── model.pth
-\\\`
 
 ## Perbandingan Model
 Untuk melihat perbandingan model, Anda bisa membuka notebook berikut:
@@ -71,4 +74,4 @@ Notebook-notebook tersebut berisi analisis dan perbandingan performa dari berbag
 
 ## Catatan Tambahan
 Pastikan semua dependensi telah diinstal dengan benar sebelum menjalankan aplikasi. Jika Anda mengalami masalah, periksa versi Python dan dependensi yang diinstal.
-" > README.md
+
