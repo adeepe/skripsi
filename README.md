@@ -80,6 +80,6 @@ Untuk melihat perbandingan model, Anda bisa membuka notebook berikut:
 
 Notebook-notebook tersebut berisi analisis dan perbandingan performa dari berbagai model yang digunakan dalam project ini.
 
-## Catatan Tambahanjct
+## Catatan Tambahan
 Pastikan semua dependensi telah diinstal dengan benar sebelum menjalankan aplikasi. Jika Anda mengalami masalah, periksa versi Python dan dependensi yang diinstal.
 
