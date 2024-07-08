@@ -45,9 +45,12 @@ Berikut adalah struktur project ini:
 ```sh
 skripsi/
 ├── data/
+│   └── JOG_MONTHLY.csv
 ├── model/
 ├── static/
 │   └── index.html
+│   └── style.css
+│   └── scripts.js
 ├── README.md
 ├── SKRIPSI_ANALISIS_DATA.ipynb
 ├── SKRIPSI_ARIMA.ipynb
@@ -65,11 +68,11 @@ skripsi/
 ## Perbandingan Model
 Untuk melihat perbandingan model, Anda bisa membuka notebook berikut:
 
-- \SKRIPSI_ARIMA.ipynb\
-- \SKRIPSI_BiLSTM_SUMMARY.ipynb\
-- \SKRIPSI_EXPONENTIAL_SMOOTHING.ipynb\
-- \SKRIPSI_OLS.ipynb\
-
+- [SKRIPSI_ARIMA.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_ARIMA.ipynb)
+- [SKRIPSI_BiLSTM.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_BiLSTM.ipynb)
+- [SKRIPSI_EXPONENTIAL_SMOOTHING.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_EXPONENTIAL_SMOOTHING.ipynb)
+- [SKRIPSI_OLS.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_OLS.ipynb)
+- [SKRIPSI_LSTM.ipynb](https://github.com/adeepe/skripsi/blob/master/SKRIPSI_LSTM.ipynb)
 Notebook-notebook tersebut berisi analisis dan perbandingan performa dari berbagai model yang digunakan dalam proyek ini.
 
 ## Catatan Tambahan
