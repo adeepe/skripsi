@@ -50,6 +50,7 @@ Berikut adalah struktur project ini:
 skripsi/
 ├── data/
 │   └── JOG_monthly.csv
+│   └── Permohonan Data ke PLN UP3 Yogyakarta_Ade Pengalasan 
 ├── model/
 ├── static/
 │   └── index.html
